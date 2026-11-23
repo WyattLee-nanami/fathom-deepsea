@@ -1,0 +1,1 @@
+function e(e,t,n){if(!(e>0)||!Number.isFinite(e))throw RangeError(`createStepper: stepMs must be a positive finite number, got ${e}`);let r=Number.isFinite(t)?Math.max(1,Math.floor(t)):1,i=e/1e3,a=0;return function(t){if(!(t>0))return a/e;a+=t;let o=r*e;a>o&&(a=o);let s=0;for(;a>=e&&s<r;)n(i),a-=e,s++;let c=a/e;return c>=1?0:c}}export{e as t};

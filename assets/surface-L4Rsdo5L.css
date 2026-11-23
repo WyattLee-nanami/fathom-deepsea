@@ -1,0 +1,1 @@
+@layer scenes{#layer-surface .layer-copy{pointer-events:none;-webkit-user-select:none;user-select:none;text-wrap:balance}#layer-surface .layer-eyebrow{color:color-mix(in oklab, var(--ink-dim) 78%, transparent)}@media (max-height:620px){#layer-surface .layer-copy{padding-top:var(--space-14)}}}
